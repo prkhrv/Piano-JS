@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    background: #222;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+select {
+    font-size: 3rem;
+}
+
+p {
+    background: #fff;
+    border-radius: 0.7rem;
+    padding: 1rem 1.5rem;
+}
+
+#keyboard {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+.key2 {
+    border: 1px solid #ccc;
+    background: black;
+    border-radius: 0.7rem;
+    margin: 0 1px;
+    width: 35px;
+    padding: 1.5rem 0;
+    float: left;
+    transition: margin 150ms ease-in-out;
+    position: absolute;
+    left: 25px;
+}
+
+.key2 span {
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 1rem;
+    background: black;
+    border-radius: 0.4rem;
+}
+
+
+.key {
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 0.7rem;
+    margin: 0 1px;
+    width: 40px;
+    padding: 3.5rem 0;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    transition: margin 150ms ease-in-out;
+    font-weight: bold;
+    color: white;
+}
+
+.key span {
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 0.4rem;
+}
+
+.playing {
+    background: #ddd;
+    margin-top: 1.5rem;
+}
+
+
+.key3{
+    border: 1px solid #ccc;
+    background: black;
+    border-radius: 0.7rem;
+    margin: 0 1px;
+    width: 35px;
+    padding: 2.2rem 0;
+    float: left;
+    transition: margin 150ms ease-in-out;
+    position: absolute;
+    left: 65px;
+}
+
+.key4{
+    border: 1px solid #ccc;
+    background: black;
+    border-radius: 0.7rem;
+    margin: 0 1px;
+    width: 35px;
+    padding: 2.2rem 0;
+    float: left;
+    transition: margin 150ms ease-in-out;
+    position: absolute;
+    left: 149px;
+}
+
+.key5{
+    border: 1px solid #ccc;
+    background: black;
+    border-radius: 0.7rem;
+    margin: 0 1px;
+    width: 35px;
+    padding: 2.2rem 0;
+    float: left;
+    transition: margin 150ms ease-in-out;
+    position: absolute;
+    left: 194px;
+}
+
+.key6{
+    border: 1px solid #ccc;
+    background: black;
+    border-radius: 0.7rem;
+    margin: 0 1px;
+    width: 35px;
+    padding: 2.2rem 0;
+    float: left;
+    transition: margin 150ms ease-in-out;
+    position: absolute;
+    left: 235px;
+}
+
+.key7{
+    border: 1px solid #ccc;
+    background: black;
+    border-radius: 0.7rem;
+    margin: 0 1px;
+    width: 35px;
+    padding: 2.2rem 0;
+    float: left;
+    transition: margin 150ms ease-in-out;
+    position: absolute;
+    left: 316px;
+}
+
+.key8{
+    border: 1px solid #ccc;
+    background: black;
+    border-radius: 0.7rem;
+    margin: 0 1px;
+    width: 35px;
+    padding: 2.2rem 0;
+    float: left;
+    transition: margin 150ms ease-in-out;
+    position: absolute;
+    left: 361px;
+}
+.playing2 {
+    background: black;
+    margin-top: 0.2rem;
+}
+
